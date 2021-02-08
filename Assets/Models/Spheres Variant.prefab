@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe3b1dd497e21e428297ded9d83cd06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xPosRange: 20
+  xPosRange: 100
   yPosRange: 20
-  zPosRange: 20
+  zPosRange: 100
   xRotRange: 360
   yRotRange: 360
   zRotRange: 360

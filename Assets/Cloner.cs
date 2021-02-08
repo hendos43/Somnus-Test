@@ -6,6 +6,12 @@ using System.Collections;
 public class Cloner : MonoBehaviour
 {
     public int numClones = 10;
+    public float minXRange = -50f;
+    public float maxXRange = 50f;
+    public float minYRange = 0f;
+    public float maxYRange = 20f;
+    public float minZRange = -50f;
+    public float maxZRange = 50f;
     
     public Transform prefab;
     void Start()
@@ -13,7 +19,7 @@ public class Cloner : MonoBehaviour
         for (int i = 0; i < numClones; i++)
         {
             var newObject = Instantiate(prefab, 
-                new Vector3(Random.Range(0f, 10f), Random.Range(0f, 10f), Random.Range(0f, 10f)), 
+                new Vector3(Random.Range(minXRange, maxXRange), Random.Range(minYRange, maxYRange), Random.Range(minZRange, maxZRange)), 
                 Quaternion.Euler(new Vector3(Random.Range(0, 360),Random.Range(0, 360),Random.Range(0, 360)))
                 );
 
