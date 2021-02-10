@@ -36,8 +36,8 @@ Material:
     - _NoiseSpeed1: 0.04
     - _OuterDiameter: 0.45
     - _OutsideDiameter: 0.39
-    - _RingDiameter: 0.75
-    - _RingWidth: 0.3
+    - _RingDiameter: 0.66
+    - _RingWidth: 0.2
     - _ShadowOpacity: 2
     - _SinFrequency: 1.4
     - _TessValue: 4.1

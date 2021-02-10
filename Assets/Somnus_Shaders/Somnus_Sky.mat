@@ -33,7 +33,7 @@ Material:
     - _DistortSpeed: 0.01
     - _Falloff: 5
     - _Float0: 0.01
-    - _Global: 0.69
+    - _Global: 0.3
     - _NoiseScale: 100
     - _NoiseSpeed: 0.0001
     - _Tiling: 2

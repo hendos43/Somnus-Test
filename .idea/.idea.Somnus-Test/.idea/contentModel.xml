@@ -761,18 +761,18 @@
           </e>
           <e p="README.txt" t="Include" />
         </e>
-        <e p="Cloner.cs" t="Include" />
-        <e p="CloneToMeshPoints.cs" t="Include" />
-        <e p="RandomMove.cs" t="Include" />
-        <e p="RandomScale.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Cloner.cs" t="Include" />
+          <e p="CloneToMeshPoints.cs" t="Include" />
+          <e p="RandomMove.cs" t="Include" />
+          <e p="RandomScale.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
         <e p="Somnus_Shaders" t="Include">
+          <e p="Flat_Black.shader" t="Include" />
           <e p="Ground.shader" t="Include" />
           <e p="Laptop_Shell.shader" t="Include" />
           <e p="NoisyWithShadows.shader" t="Include" />
-          <e p="Ribbon.shader" t="Include" />
           <e p="Shadows.shader" t="Include" />
           <e p="Sky.shader" t="Include" />
           <e p="Test1.shader" t="Include" />
@@ -785,6 +785,10 @@
             </e>
             <e p="Readme.cs" t="Include" />
           </e>
+        </e>
+        <e p="Video" t="Include">
+          <e p="Ribbon.shader" t="Include" />
+          <e p="Video_Test.shader" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

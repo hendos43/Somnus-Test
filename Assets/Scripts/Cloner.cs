@@ -14,7 +14,7 @@ public class Cloner : MonoBehaviour
     public float maxZRange = 50f;
     
     public Transform prefab;
-    void Start()
+    void OnEnable()
     {
         for (int i = 0; i < numClones; i++)
         {

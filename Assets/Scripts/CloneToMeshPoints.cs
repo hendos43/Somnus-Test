@@ -11,7 +11,7 @@ public class CloneToMeshPoints : MonoBehaviour
     public Vector3 cloneScale = new Vector3(1, 1, 1);
     
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
 
         Mesh mesh = meshObject.GetComponent<MeshFilter>().mesh;
