@@ -447,7 +447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: eb61fc6bb03269a469abea8851e5dedf, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb61fc6bb03269a469abea8851e5dedf, type: 3}
@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 1322600868}
   - component: {fileID: 1322600867}
   m_Layer: 0
-  m_Name: Sphere Cloner
+  m_Name: Sphere Cloner (Heavy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -578,7 +578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1461842760}
   m_Layer: 0
-  m_Name: --INVISIBLE GEOMETRY--
+  m_Name: --INVISIBLE OBJECTS--
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
