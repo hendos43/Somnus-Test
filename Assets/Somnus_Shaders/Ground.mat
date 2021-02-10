@@ -25,10 +25,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _DisplacementPower: 0.5
+    - _DisplacementPower: 0.58
     - _DisplacementPower1: 0.62
     - _InsideDiameter: 0.81
-    - _Lerp: 0.5
+    - _Lerp: 0.545
     - _Lerp1: 0.35
     - _NoiseScale: 5
     - _NoiseScale1: 10.82
@@ -38,7 +38,7 @@ Material:
     - _OutsideDiameter: 0.39
     - _RingDiameter: 0.66
     - _RingWidth: 0.2
-    - _ShadowOpacity: 2
+    - _ShadowOpacity: 1.84
     - _SinFrequency: 1.4
     - _TessValue: 4.1
     - _VoronoiScale: 50
@@ -46,5 +46,5 @@ Material:
     m_Colors:
     - _Direction: {r: 0.72, g: 0.99, b: -0.63, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MainColor: {r: 0.2, g: 0.5137255, b: 0.5568628, a: 0}
+    - _MainColor: {r: 0.19999999, g: 0.47570032, b: 0.5568628, a: 0}
   m_BuildTextureStacks: []
