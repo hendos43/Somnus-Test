@@ -29,7 +29,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _ApertureRadius: 0
+    - _ApertureRadius: 0.63
     - _DistortScale: 10
     - _DistortSpeed: 0.01
     - _Falloff: 5
