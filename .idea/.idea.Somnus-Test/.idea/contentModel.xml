@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Stephen\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Stephen\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_Somnus-Test.1208558290.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Stephen\Documents\Somnus-Test" t="IncludeRecursive">
+    <e p="C:\Users\Stephen\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Stephen\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Somnus-Test.-299111128.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Stephen\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="G:\Drive\Design\Somnus\Somnus-Test" t="IncludeRecursive">
       <e p="AmplifyShaderEditor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -771,6 +772,7 @@
           <e p="Ground.shader" t="Include" />
           <e p="Laptop_Shell.shader" t="Include" />
           <e p="NoisyWithShadows.shader" t="Include" />
+          <e p="Ribbon.shader" t="Include" />
           <e p="Shadows.shader" t="Include" />
           <e p="Sky.shader" t="Include" />
           <e p="Test1.shader" t="Include" />
