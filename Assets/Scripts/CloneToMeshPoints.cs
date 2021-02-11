@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,8 @@ public class CloneToMeshPoints : MonoBehaviour
     public GameObject cloneObject;
     
     public Vector3 cloneScale = new Vector3(1, 1, 1);
+
+    private List<GameObject> clones = new List<GameObject>();
     
     // Start is called before the first frame update
     void OnEnable()
@@ -33,13 +36,25 @@ public class CloneToMeshPoints : MonoBehaviour
         {
            
            
-           GameObject newObject = Instantiate(cloneObject, meshObject.transform.TransformPoint(vertices[vertId]),  Quaternion.FromToRotation(Vector3.up, normals[vertId]));
-           newObject.transform.localScale = new Vector3(cloneScale.x, cloneScale.y, cloneScale.z);
-           newObject.transform.parent = gameObject.transform;
+           GameObject thisClone = Instantiate(cloneObject, meshObject.transform.TransformPoint(vertices[vertId]),  Quaternion.FromToRotation(Vector3.up, normals[vertId]));
+           thisClone.transform.localScale = new Vector3(cloneScale.x, cloneScale.y, cloneScale.z);
+           thisClone.transform.parent = gameObject.transform;
+           clones.Add(thisClone);
+
 
         }
 
 
+    }
+
+    private void OnDisable()
+    {
+        foreach (GameObject clone in clones)
+        {
+            Destroy(clone);
+        }
+        
+        clones.Clear();
     }
 
     // Update is called once per frame
