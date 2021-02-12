@@ -776,6 +776,7 @@
           <e p="Scaff.shader" t="Include" />
           <e p="Shadows.shader" t="Include" />
           <e p="Sky.shader" t="Include" />
+          <e p="Spiral.shader" t="Include" />
           <e p="Test1.shader" t="Include" />
           <e p="Test2.shader" t="Include" />
         </e>

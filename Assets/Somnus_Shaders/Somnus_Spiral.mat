@@ -21,8 +21,16 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _DisplacementPower1: -0.13
+    - _DisplacementPower: 1.91
+    - _DisplacementPower1: 2
+    - _GradientControl: 0.585
+    - _NoiseScale: 23.91
+    - _Offset: 0.63
+    - _TessValue: 5.3
     m_Colors:
+    - _Albedo: {r: 0.4784314, g: 0.74509805, b: 0.83921576, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _GradientControl1: {r: 0, g: -1.77, b: 0, a: 0}
+    - _GradientControl: {r: 0, g: -1.59, b: 0, a: 0}
+    - _GradientControl1: {r: 0, g: 1.8, b: 0, a: 0}
+    - _NoiseTile: {r: 0.12, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
