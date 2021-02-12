@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="704b0dd6-9d27-493b-8910-38e6aeab0db7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CloneToMeshPoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CloneToMeshPoints.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Ground.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Scaff.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Scaff.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Sky.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Sky.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cloner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cloner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Ground.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Ground.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Scaff.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Scaff.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Shadows.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Shadows.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Sky.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Sky.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CloneToMeshPoints.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cloner.cs" />
       </list>
     </option>
   </component>
@@ -62,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613058679607</updated>
       <workItem from="1613058702500" duration="1546000" />
+      <workItem from="1613143937241" duration="396000" />
     </task>
     <servers />
   </component>
