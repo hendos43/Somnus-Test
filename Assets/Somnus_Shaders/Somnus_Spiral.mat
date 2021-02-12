@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Somnus_Scaff
-  m_Shader: {fileID: 4800000, guid: 0c7c82758fd8ce24295f46b94f00dd23, type: 3}
+  m_Name: Somnus_Spiral
+  m_Shader: {fileID: 4800000, guid: 77434815b8b0a7e42a2848a6e4188e35, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -21,10 +21,8 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _ShadowOpacity1: 1.232578
+    - _DisplacementPower1: -0.13
     m_Colors:
-    - _Color: {r: 0.37735847, g: 0.37735847, b: 0.37735847, a: 0}
-    - _Direction1: {r: 0, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _GradientControl: {r: 0, g: -1.21, b: 0, a: 0}
+    - _GradientControl1: {r: 0, g: -1.77, b: 0, a: 0}
   m_BuildTextureStacks: []

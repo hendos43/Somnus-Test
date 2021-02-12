@@ -25,7 +25,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _DisplacementPower: 0.58
+    - _DisplacementPower: 0.8
     - _DisplacementPower1: 0.62
     - _InsideDiameter: 0.81
     - _Lerp: 0.545
@@ -39,6 +39,7 @@ Material:
     - _RingDiameter: 0.66
     - _RingWidth: 0.2
     - _ShadowOpacity: 1.84
+    - _ShadowOpacity1: 1.232578
     - _SinFrequency: 1.4
     - _TessValue: 4.1
     - _VoronoiScale: 50
