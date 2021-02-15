@@ -29,16 +29,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _ApertureRadius: 0.77
+    - _ApertureRadius: 0
     - _DistortScale: 10
     - _DistortSpeed: 0.01
     - _Falloff: 5
     - _Float0: 0.01
     - _Global: 0.3
-    - _GlobalNoiseScale: 0.25
+    - _GlobalNoiseScale: 0.5
+    - _Hue: 0.65
     - _NoiseScale: 100
     - _NoiseSpeed: 0.0001
+    - _Sat: 0.88
+    - _SkyFall: 1.5
+    - _TessValue: 16
     - _Tiling: 2
+    - _Val: 1.5
+    - _colouroffset: 0.11
     m_Colors:
+    - _Color0: {r: 0.0047169924, g: 0.8943062, b: 1, a: 0}
+    - _Color1: {r: 0, g: 0.59594154, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
