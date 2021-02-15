@@ -773,6 +773,7 @@
           <e p="Assets" t="Include">
             <e p="Laptop_Shell.shader" t="Include" />
             <e p="Scaff.shader" t="Include" />
+            <e p="Spiral.shader" t="Include" />
           </e>
           <e p="Environment" t="Include">
             <e p="Ground.shader" t="Include" />
@@ -785,7 +786,6 @@
             <e p="Flat_Black.shader" t="Include" />
             <e p="NoisyWithShadows.shader" t="Include" />
             <e p="Shadows.shader" t="Include" />
-            <e p="Spiral.shader" t="Include" />
             <e p="Test1.shader" t="Include" />
             <e p="Test2.shader" t="Include" />
           </e>

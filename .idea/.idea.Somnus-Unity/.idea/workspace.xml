@@ -20,68 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="704b0dd6-9d27-493b-8910-38e6aeab0db7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Grid Marker Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Grid Marker Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Halo Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Halo Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Halo.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Halo.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Laptop Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Laptop Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Spheres Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Spheres Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CloneToMeshPoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CloneToMeshPoints.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/BW Noise.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/BW Noise.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Fake_Shadows.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Fake_Shadows.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Flat_Black.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Flat_Black.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Ground.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Ground.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Ground.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Ground.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Laptop_Shell.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Laptop_Shell.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/NoisyWithShadows.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/NoisyWithShadows.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Pixelate.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Pixelate.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Sand.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Sand.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Scaff.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Scaff.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Shadows.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Shadows.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Shadows.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Shadows.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Sky.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Sky.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Flat_Black.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Flat_Black.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Laptop_Shell.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Laptop_Shell.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_NoisyWithShadows.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_NoisyWithShadows.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Pixelate.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Pixelate.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Sand.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Sand.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Scaff.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Scaff.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Sky.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Sky.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Spiral.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Spiral.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Test1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Test1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Test2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_Test2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_White with Shadows.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somnus_White with Shadows.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somus_BW_Noise.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Somus_BW_Noise.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Spiral.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Spiral.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Test1.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Test1.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Test2.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Test2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Assets/Scaff.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Assets/Scaff.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Sky.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Sky.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Tests/NoisyWithShadows.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Tests/NoisyWithShadows.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Tests/Somnus_Spiral.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Tests/Somnus_Spiral.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Tests/Spiral.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Tests/Spiral.shader.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +91,7 @@
       <updated>1613058679607</updated>
       <workItem from="1613058702500" duration="1546000" />
       <workItem from="1613143937241" duration="1057000" />
-      <workItem from="1613390677311" duration="1428000" />
+      <workItem from="1613390677311" duration="2126000" />
     </task>
     <servers />
   </component>

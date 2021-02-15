@@ -21,12 +21,12 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _DisplacementPower: 1.91
+    - _DisplacementPower: 0.81
     - _DisplacementPower1: 2
-    - _GradientControl: 0.585
+    - _GradientControl: 0.53
     - _NoiseScale: 23.91
-    - _Offset: 0.63
-    - _TessValue: 5.3
+    - _Offset: 0.78
+    - _TessValue: 13.2
     m_Colors:
     - _Albedo: {r: 0.4784314, g: 0.74509805, b: 0.83921576, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
