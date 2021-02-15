@@ -21,6 +21,13 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _AlphaCutoff: 0.5
+    - _Blend: 0.507
+    - _DisplacementStrength: 0.396
+    - _DistortionScale: 24.22
+    - _SandScale: 300
+    - _SandScaleSquash: 25
+    - _TessValue: 16
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SandColor: {r: 0.8941177, g: 0.7294118, b: 0.5254902, a: 0}
   m_BuildTextureStacks: []

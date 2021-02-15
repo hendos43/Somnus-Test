@@ -21,6 +21,9 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _AlphaCutoff: 0.5
+    - _TessValue: 16
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0.27367392, g: 0.7735849, b: 0.5372637, a: 0}
+    - _NoiseTiling: {r: 1, g: 128, b: 0, a: 0}
   m_BuildTextureStacks: []
