@@ -13,6 +13,8 @@ public class CloneToMeshPoints : MonoBehaviour
 
     private List<GameObject> clones = new List<GameObject>();
     
+    public Vector3 worldSpaceOffset = new Vector3(0,0,0);
+    
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -36,7 +38,7 @@ public class CloneToMeshPoints : MonoBehaviour
         {
            
            
-           GameObject thisClone = Instantiate(cloneObject, meshObject.transform.TransformPoint(vertices[vertId]),  Quaternion.FromToRotation(Vector3.up, normals[vertId]));
+           GameObject thisClone = Instantiate(cloneObject, meshObject.transform.TransformPoint(vertices[vertId]+worldSpaceOffset),  Quaternion.FromToRotation(Vector3.up, normals[vertId]));
            thisClone.transform.localScale = new Vector3(cloneScale.x, cloneScale.y, cloneScale.z);
            thisClone.transform.parent = gameObject.transform;
            clones.Add(thisClone);

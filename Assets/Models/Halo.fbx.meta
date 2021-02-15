@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Rods
-    second: {fileID: 2100000, guid: 9dde1d7265393a54caa81fa7e84485d0, type: 2}
+    second: {fileID: 2100000, guid: cbfd84be95150de4eaae844027027bd0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Spheres
-    second: {fileID: 2100000, guid: 4f2bd1665b015ba40b8c0931315542f6, type: 2}
+    second: {fileID: 2100000, guid: cbfd84be95150de4eaae844027027bd0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

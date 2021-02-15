@@ -770,19 +770,25 @@
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
         <e p="Somnus_Shaders" t="Include">
-          <e p="Flat_Black.shader" t="Include" />
-          <e p="Ground.shader" t="Include" />
-          <e p="Laptop_Shell.shader" t="Include" />
-          <e p="NoisyWithShadows.shader" t="Include" />
-          <e p="Pixelate.shader" t="Include" />
-          <e p="Sand.shader" t="Include" />
-          <e p="Scaff.shader" t="Include" />
-          <e p="Shadows.shader" t="Include" />
-          <e p="Sky.shader" t="Include" />
-          <e p="Somus_BW_Noise.shader" t="Include" />
-          <e p="Spiral.shader" t="Include" />
-          <e p="Test1.shader" t="Include" />
-          <e p="Test2.shader" t="Include" />
+          <e p="Assets" t="Include">
+            <e p="Laptop_Shell.shader" t="Include" />
+            <e p="Scaff.shader" t="Include" />
+          </e>
+          <e p="Environment" t="Include">
+            <e p="Ground.shader" t="Include" />
+            <e p="Pixelate.shader" t="Include" />
+            <e p="Sand.shader" t="Include" />
+            <e p="Sky.shader" t="Include" />
+            <e p="Somus_BW_Noise.shader" t="Include" />
+          </e>
+          <e p="Tests" t="Include">
+            <e p="Flat_Black.shader" t="Include" />
+            <e p="NoisyWithShadows.shader" t="Include" />
+            <e p="Shadows.shader" t="Include" />
+            <e p="Spiral.shader" t="Include" />
+            <e p="Test1.shader" t="Include" />
+            <e p="Test2.shader" t="Include" />
+          </e>
         </e>
         <e p="TutorialInfo" t="Include">
           <e p="Scripts" t="Include">
