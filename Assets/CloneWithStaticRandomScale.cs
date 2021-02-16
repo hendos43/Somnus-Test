@@ -40,9 +40,9 @@ public class CloneWithStaticRandomScale : MonoBehaviour
 
             float thisCloneScale = UnityEngine.Random.Range(0.5f, 1.5f);
             
-            Vector3 randomRotation = new Vector3(1, UnityEngine.Random.Range(0f,360f), 1);
+           // Vector3 randomRotation = new Vector3(1, UnityEngine.Random.Range(0f,360f), 1);
 
-            GameObject thisClone = Instantiate(cloneObject, meshObject.transform.TransformPoint(vertices[vertId]+worldSpaceOffset),  Quaternion.FromToRotation(Vector3.up, Vector3.Scale(normals[vertId], randomRotation) ));
+            GameObject thisClone = Instantiate(cloneObject, meshObject.transform.TransformPoint(vertices[vertId]+worldSpaceOffset),  Quaternion.FromToRotation(Vector3.up, normals[vertId] ));
             thisClone.transform.localScale = new Vector3(thisCloneScale, thisCloneScale, thisCloneScale);
             thisClone.transform.parent = gameObject.transform;
             clones.Add(thisClone);
