@@ -31,6 +31,9 @@ public class Cloner : MonoBehaviour
                 new Vector3(Random.Range(minXRange, maxXRange), Random.Range(minYRange, maxYRange), Random.Range(minZRange, maxZRange)), 
                 Quaternion.Euler(new Vector3(Random.Range(0, 360),Random.Range(0, 360),Random.Range(0, 360)))
                 );
+
+            /*thisClone.position = new Vector3(Random.Range(minXRange, maxXRange), Random.Range(minYRange, maxYRange),
+                Random.Range(minZRange, maxZRange));*/
             
             thisClone.transform.localScale = new Vector3(cloneScale.x, cloneScale.y, cloneScale.z);
             thisClone.transform.parent = gameObject.transform;

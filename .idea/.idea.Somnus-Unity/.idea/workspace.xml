@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="704b0dd6-9d27-493b-8910-38e6aeab0db7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Laptop Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Laptop Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Sphere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Sphere.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Spheres Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Spheres Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cloner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cloner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RandomMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RandomMove.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +41,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cloner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RandomMove.cs" />
         <option value="$PROJECT_DIR$/Assets/RandomRotate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CloneToMeshPoints.cs" />
         <option value="$PROJECT_DIR$/Assets/CloneWithStaticRandomScale.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cloner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RandomMove.cs" />
       </list>
     </option>
   </component>
@@ -88,7 +92,7 @@
       <workItem from="1613143937241" duration="1057000" />
       <workItem from="1613390677311" duration="2126000" />
       <workItem from="1613469623158" duration="4744000" />
-      <workItem from="1613482223689" duration="838000" />
+      <workItem from="1613482223689" duration="4107000" />
     </task>
     <servers />
   </component>

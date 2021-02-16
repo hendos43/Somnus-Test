@@ -12,27 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe3b1dd497e21e428297ded9d83cd06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xPosRange: 100
-  yPosRange: 20
-  zPosRange: 100
-  xSpeed: 0.1
-  ySpeed: 0.1
-  zSpeed: 0.1
---- !u!114 &1214655363093808603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4737973797568383105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a546e5668b455d1468d12675e254abe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xScaleRange: 3
-  yScaleRange: 3
-  zScaleRange: 3
+  xPosMax: 100
+  yPosMax: 50
+  zPosMax: 100
+  xPosMin: -100
+  yPosMin: 0
+  zPosMin: -100
   xSpeed: 0.1
   ySpeed: 0.1
   zSpeed: 0.1
@@ -51,6 +36,24 @@ MonoBehaviour:
   xRotRange: 360
   yRotRange: 360
   zRotRange: 360
+  xSpeed: 0.1
+  ySpeed: 0.1
+  zSpeed: 0.1
+--- !u!114 &1214655363093808603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4737973797568383105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a546e5668b455d1468d12675e254abe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xScaleRange: 3
+  yScaleRange: 3
+  zScaleRange: 3
   xSpeed: 0.1
   ySpeed: 0.1
   zSpeed: 0.1

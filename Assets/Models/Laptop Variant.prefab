@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a546e5668b455d1468d12675e254abe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xScaleRange: 3
-  yScaleRange: 3
-  zScaleRange: 3
+  xScaleRange: 5
+  yScaleRange: 5
+  zScaleRange: 5
   xSpeed: 0.1
   ySpeed: 0.1
   zSpeed: 0.1
@@ -30,9 +30,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe3b1dd497e21e428297ded9d83cd06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xPosRange: 100
-  yPosRange: 20
-  zPosRange: 100
+  xPosMax: 100
+  yPosMax: 50
+  zPosMax: 100
+  xPosMin: -100
+  yPosMin: 0
+  zPosMin: -100
   xSpeed: 0.1
   ySpeed: 0.1
   zSpeed: 0.1
