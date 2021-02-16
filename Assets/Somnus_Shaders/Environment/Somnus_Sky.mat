@@ -40,7 +40,7 @@ Material:
     - _NoiseScale: 100
     - _NoiseSpeed: 0.0001
     - _Sat: 0.88
-    - _SkyFall: 1.9
+    - _SkyFall: 2
     - _TessValue: 16
     - _Tiling: 2
     - _Val: 1.5

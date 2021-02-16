@@ -778,7 +778,9 @@
         </e>
         <e p="Somnus_Shaders" t="Include">
           <e p="Assets" t="Include">
+            <e p="Boxes.shader" t="Include" />
             <e p="Laptop_Shell.shader" t="Include" />
+            <e p="SandBoxes.shader" t="Include" />
             <e p="Scaff.shader" t="Include" />
             <e p="Spiral.shader" t="Include" />
           </e>

@@ -23,6 +23,6 @@ Material:
     - _AlphaCutoff: 0.5
     - _NoiseScale: 3.84
     m_Colors:
-    - _Color0: {r: 0.11752456, g: 0.20754719, b: 0.085172676, a: 0}
+    - _Color0: {r: 0.038254067, g: 0.084905684, b: 0.02202742, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
