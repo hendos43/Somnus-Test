@@ -21,6 +21,11 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _AlphaCutoff: 0.5
+    - _borderwidth: 0.05
+    - _factor: 1.86
+    - _noisescale: 9.05
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _rivets: {r: 0.09433961, g: 0.080544665, b: 0.080544665, a: 0}
+    - _wood: {r: 0.3962264, g: 0.31801823, b: 0.26726592, a: 0}
   m_BuildTextureStacks: []
