@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="704b0dd6-9d27-493b-8910-38e6aeab0db7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Assets/Scaff.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Assets/Scaff.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Sky.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Sky.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Tests/NoisyWithShadows.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Tests/NoisyWithShadows.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Tests/Somnus_Spiral.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Tests/Somnus_Spiral.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Tests/Spiral.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Tests/Spiral.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +42,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RandomMove.cs" />
         <option value="$PROJECT_DIR$/Assets/RandomRotate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CloneToMeshPoints.cs" />
+        <option value="$PROJECT_DIR$/Assets/CloneWithStaticRandomScale.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +87,7 @@
       <workItem from="1613058702500" duration="1546000" />
       <workItem from="1613143937241" duration="1057000" />
       <workItem from="1613390677311" duration="2126000" />
+      <workItem from="1613469623158" duration="2825000" />
     </task>
     <servers />
   </component>
@@ -110,6 +106,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
