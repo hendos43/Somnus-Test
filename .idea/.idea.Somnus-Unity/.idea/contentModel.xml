@@ -764,6 +764,7 @@
         <e p="CloneWithStaticRandomScale.cs" t="Include" />
         <e p="Models" t="Include">
           <e p="Grass Assets" t="Include">
+            <e p="Grass Base.shader" t="Include" />
             <e p="Grass.shader" t="Include" />
           </e>
         </e>
