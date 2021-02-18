@@ -20,11 +20,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="704b0dd6-9d27-493b-8910-38e6aeab0db7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Somnus_Grass Base.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Grass Assets/Somnus_Grass Base.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CloneWithStaticRandomScale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CloneWithStaticRandomScale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass Base.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass Base.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Grass.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Green_Grass_AlbedoA.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Green_Grass_AlbedoA.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Green_Grass_MAODS.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Green_Grass_MAODS.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Green_Grass_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Green_Grass_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Somnus_Grass Base.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Grass Assets/Somnus_Grass Base.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RandomRotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RandomRotate.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Sand.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Sand.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Somnus_Sky.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Somnus_Sky.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Assets/Boxes_2.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Assets/Boxes_2.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Assets/Somnus_Boxes_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Assets/Somnus_Boxes_2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Ground.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Ground.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Sky.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Sky.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +63,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/RandomRotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GenericMaterialModifierVector3.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,6 +73,8 @@
         <option value="$PROJECT_DIR$/Assets/CloneWithStaticRandomScale.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cloner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RandomMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GenericMaterialModifierVector3.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GenericMaterialModifier.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +122,7 @@
       <workItem from="1613390677311" duration="2126000" />
       <workItem from="1613469623158" duration="4744000" />
       <workItem from="1613482223689" duration="4707000" />
+      <workItem from="1613662979004" duration="3671000" />
     </task>
     <servers />
   </component>

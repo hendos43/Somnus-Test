@@ -14,6 +14,11 @@
           <e p="ChangeLog.txt" t="Include" />
           <e p="CreatingTerrainsWithASE.txt" t="Include" />
           <e p="Examples" t="Include">
+            <e p="Built-In" t="Include">
+              <e p="VertexNormalReconstruction" t="Include">
+                <e p="VertexNormalReconstruction.shader" t="Include" />
+              </e>
+            </e>
             <e p="Credits.txt" t="Include" />
             <e p="DownloadSamplesInstructions.txt" t="Include" />
             <e p="README Samples.txt" t="Include" />
@@ -761,24 +766,21 @@
           </e>
           <e p="README.txt" t="Include" />
         </e>
-        <e p="CloneWithStaticRandomScale.cs" t="Include" />
-        <e p="Models" t="Include">
-          <e p="Grass Assets" t="Include">
-            <e p="Grass Base.shader" t="Include" />
-            <e p="Grass.shader" t="Include" />
-          </e>
-        </e>
-        <e p="RandomRotate.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Cloner.cs" t="Include" />
           <e p="CloneToMeshPoints.cs" t="Include" />
+          <e p="CloneWithStaticRandomScale.cs" t="Include" />
+          <e p="GenericMaterialModifier.cs" t="Include" />
+          <e p="GenericMaterialModifierVector3.cs" t="Include" />
           <e p="RandomMove.cs" t="Include" />
+          <e p="RandomRotate.cs" t="Include" />
           <e p="RandomScale.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
         <e p="Somnus_Shaders" t="Include">
           <e p="Assets" t="Include">
             <e p="Boxes.shader" t="Include" />
+            <e p="Boxes_2.shader" t="Include" />
             <e p="Laptop_Shell.shader" t="Include" />
             <e p="SandBoxes.shader" t="Include" />
             <e p="Scaff.shader" t="Include" />
@@ -790,6 +792,10 @@
             <e p="Sand.shader" t="Include" />
             <e p="Sky.shader" t="Include" />
             <e p="Somus_BW_Noise.shader" t="Include" />
+          </e>
+          <e p="Grass Assets" t="Include">
+            <e p="Grass Base.shader" t="Include" />
+            <e p="Grass.shader" t="Include" />
           </e>
           <e p="Tests" t="Include">
             <e p="Flat_Black.shader" t="Include" />

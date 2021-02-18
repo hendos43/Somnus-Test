@@ -25,7 +25,9 @@ Material:
     - _GradientContrast: 4.16
     - _GradientContrast1: 4.47
     - _ShadowStrength: 0.31
-    - _TessValue: 16
+    - _TessMax: 200
+    - _TessMin: 10
+    - _TessValue: 3
     m_Colors:
     - _Centre: {r: 0.7075472, g: 0.21693665, b: 0.5589893, a: 0}
     - _Edge: {r: 0.8301887, g: 0.30936277, b: 0.47814906, a: 0}
