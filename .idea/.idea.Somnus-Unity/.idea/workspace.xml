@@ -62,9 +62,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GenericMaterialModifierVector3.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -73,8 +70,8 @@
         <option value="$PROJECT_DIR$/Assets/CloneWithStaticRandomScale.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cloner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RandomMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GenericMaterialModifierVector3.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GenericMaterialModifier.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GenericMaterialModifierVector3.cs" />
       </list>
     </option>
   </component>
@@ -122,7 +119,7 @@
       <workItem from="1613390677311" duration="2126000" />
       <workItem from="1613469623158" duration="4744000" />
       <workItem from="1613482223689" duration="4707000" />
-      <workItem from="1613662979004" duration="3671000" />
+      <workItem from="1613662979004" duration="4475000" />
     </task>
     <servers />
   </component>

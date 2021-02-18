@@ -29,9 +29,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _TessValue: 16
+    - _GradientTimeScale: 0.05
+    - _TessValue: 3
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _MultiplicationVector: {r: 0, g: 1, b: 0, a: 0}
-    - _Tiling: {r: 4, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 3, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
