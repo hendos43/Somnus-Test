@@ -30,7 +30,7 @@ Material:
     - _NoiseScale1: 2.77
     - _NoiseSpeed1: 0.15
     - _ShadowOpacity: 1.232578
-    - _TessValue: 16
+    - _TessValue: 4
     - _VoronoiScale1: 4.64
     m_Colors:
     - _Direction: {r: 0, g: 1, b: 0, a: 0}
