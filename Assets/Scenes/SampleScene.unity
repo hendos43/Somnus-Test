@@ -192,7 +192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f9372fcc368299a4786160f75e6da4d4, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9372fcc368299a4786160f75e6da4d4, type: 3}
@@ -304,7 +304,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &307391953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -928,7 +928,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e0ed89394e8ace04d8eed5dadcdf2608, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0ed89394e8ace04d8eed5dadcdf2608, type: 3}
@@ -1154,7 +1154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dd2a02343b5b37246920fb9adf46f532, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd2a02343b5b37246920fb9adf46f532, type: 3}
@@ -1412,6 +1412,7 @@ GameObject:
   - component: {fileID: 1923250861}
   - component: {fileID: 1923250860}
   - component: {fileID: 1923250862}
+  - component: {fileID: 1923250863}
   m_Layer: 0
   m_Name: --EVENT SCRIPTS--
   m_TagString: Untagged
@@ -1431,12 +1432,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  notes: Change Floor Displacement Power
   objectToModify: {fileID: 183443684}
+  propertyToChange: _DisplacementPower
   lerpFromCurrent: 1
   initialValue: 0.18
   targetValue: 0.5
   overDuration: 5
-  propertyToChange: _DisplacementPower
 --- !u!4 &1923250861
 Transform:
   m_ObjectHideFlags: 0
@@ -1463,12 +1465,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 199ab129e07c36a4682391272b642a9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  notes: 
   objectToModify: {fileID: 183443684}
+  propertyToChange: _MainColor
   lerpFromCurrent: 0
   initialValue: {x: 0.1, y: 0.8, z: 0.1}
   targetValue: {x: 0.5, y: 0.2, z: 0.1}
   overDuration: 5
+--- !u!114 &1923250863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923250859}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8846e0ab20bd4b4d8212247c3783511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 
+  objectToModify: {fileID: 183443684}
   propertyToChange: _MainColor
+  lerpFromCurrent: 0
+  initialValue: {r: 0.8207547, g: 0.24390352, b: 0.6627241, a: 0}
+  targetValue: {r: 0.2460395, g: 0.9150943, b: 0.6601697, a: 0}
+  overDuration: 5
 --- !u!1001 &1985948311
 PrefabInstance:
   m_ObjectHideFlags: 0

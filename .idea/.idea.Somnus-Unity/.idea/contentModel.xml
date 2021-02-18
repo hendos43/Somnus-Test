@@ -772,6 +772,7 @@
           <e p="CloneWithStaticRandomScale.cs" t="Include" />
           <e p="Property Modifiers" t="Include">
             <e p="GenericMaterialModifier.cs" t="Include" />
+            <e p="GenericMaterialModifierColor.cs" t="Include" />
             <e p="GenericMaterialModifierVector3.cs" t="Include" />
           </e>
           <e p="RandomMove.cs" t="Include" />
