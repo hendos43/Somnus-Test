@@ -767,6 +767,7 @@
           <e p="README.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AnimationSpeedController.cs" t="Include" />
           <e p="Cloner.cs" t="Include" />
           <e p="CloneToMeshPoints.cs" t="Include" />
           <e p="CloneWithStaticRandomScale.cs" t="Include" />

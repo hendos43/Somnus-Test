@@ -22,9 +22,7 @@
     <list default="true" id="704b0dd6-9d27-493b-8910-38e6aeab0db7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifier.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierVector3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierVector3.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Assembling Landscape.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Assembling Landscape.fbx.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierVector3.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifier.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierColor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationSpeedController.cs" />
       </list>
     </option>
   </component>
@@ -98,6 +97,7 @@
       <workItem from="1613469623158" duration="4744000" />
       <workItem from="1613482223689" duration="4707000" />
       <workItem from="1613662979004" duration="6961000" />
+      <workItem from="1613728393340" duration="5686000" />
     </task>
     <servers />
   </component>
