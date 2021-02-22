@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class AnimationSpeedController : MonoBehaviour
 {
+    public GameObject animatedFBX;
+    
     private Animator m_animator;
 
    [Range(-1, 1)] public float animationSpeed = 0;
@@ -12,7 +14,7 @@ public class AnimationSpeedController : MonoBehaviour
     void Start()
     {
 
-        m_animator = gameObject.GetComponent<Animator>();
+        m_animator = animatedFBX.GetComponent<Animator>();
 
     }
 

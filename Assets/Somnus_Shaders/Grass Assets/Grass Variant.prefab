@@ -7,7 +7,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888534392634943445}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
   m_Name: 
@@ -15,6 +15,25 @@ MonoBehaviour:
   notes: 'Alpha | Default: 0 (Visible)
 
     Range: 0-1'
+  objectToModify: {fileID: 888534392634943445}
+  propertyToChange: _Alpha
+  lerpFromCurrent: 0
+  initialValue: 1
+  targetValue: 0
+  overDuration: 5
+--- !u!114 &6969968828086510905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888534392634943445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020b98d78c47b944b9ab1cfe3d1ec8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 
   objectToModify: {fileID: 888534392634943445}
   propertyToChange: _Alpha
   lerpFromCurrent: 0

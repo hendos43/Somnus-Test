@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="704b0dd6-9d27-493b-8910-38e6aeab0db7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Scaff Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Scaff Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Ground.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Sky.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Environment/Sky.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Grass Assets/Grass Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Grass Assets/Grass Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Video/Ribbon.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Video/Ribbon.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Video/Somnus_Ribbon.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Video/Somnus_Ribbon.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/GrassFader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ChildrenMaterialModifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierColor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -56,6 +52,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierColor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationSpeedController.cs" />
         <option value="$PROJECT_DIR$/Assets/ChildrenMaterialModifier.cs" />
+        <option value="$PROJECT_DIR$/Assets/GrassFader.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +102,7 @@
       <workItem from="1613482223689" duration="4707000" />
       <workItem from="1613662979004" duration="6961000" />
       <workItem from="1613728393340" duration="6894000" />
-      <workItem from="1613982153518" duration="782000" />
+      <workItem from="1613982153518" duration="1951000" />
     </task>
     <servers />
   </component>
