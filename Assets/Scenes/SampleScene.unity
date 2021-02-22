@@ -598,7 +598,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3948ff59c41896c4f866d0c54655b4fa,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3948ff59c41896c4f866d0c54655b4fa, type: 3}
@@ -626,15 +626,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307391952}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c769b5a28fa19b4dbfce428c510d2b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   meshObject: {fileID: 189949692}
-  cloneObject: {fileID: 888534392634943445, guid: b37e042a29e6ddc4289983a00afaf774,
+  cloneObject: {fileID: 911752493185638291, guid: b37e042a29e6ddc4289983a00afaf774,
     type: 3}
   worldSpaceOffset: {x: 0, y: 0, z: 0}
+  rotationOffset: {x: 0, y: 0, z: -90}
 --- !u!4 &307391954
 Transform:
   m_ObjectHideFlags: 0
@@ -642,7 +643,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307391952}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2084,7 +2085,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e0ed89394e8ace04d8eed5dadcdf2608,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0ed89394e8ace04d8eed5dadcdf2608, type: 3}

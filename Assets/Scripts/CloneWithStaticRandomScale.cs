@@ -16,6 +16,8 @@ public class CloneWithStaticRandomScale : MonoBehaviour
     
     public Vector3 worldSpaceOffset = new Vector3(0,0,0);
     
+    public Vector3 rotationOffset = new Vector3();
+    
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -42,7 +44,7 @@ public class CloneWithStaticRandomScale : MonoBehaviour
             
            // Vector3 randomRotation = new Vector3(1, UnityEngine.Random.Range(0f,360f), 1);
 
-            GameObject thisClone = Instantiate(cloneObject, meshObject.transform.TransformPoint(vertices[vertId]+worldSpaceOffset),  Quaternion.FromToRotation(Vector3.up, normals[vertId] ));
+            GameObject thisClone = Instantiate(cloneObject, meshObject.transform.TransformPoint(vertices[vertId]+worldSpaceOffset),  Quaternion.FromToRotation(Vector3.up, normals[vertId] + rotationOffset));
             thisClone.transform.localScale = new Vector3(thisCloneScale, thisCloneScale, thisCloneScale);
             thisClone.transform.parent = gameObject.transform;
             clones.Add(thisClone);

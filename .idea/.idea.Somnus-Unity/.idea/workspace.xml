@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="704b0dd6-9d27-493b-8910-38e6aeab0db7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChildrenMaterialModifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChildrenMaterialModifier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CloneWithStaticRandomScale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CloneWithStaticRandomScale.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Grass Assets/Grass Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Grass Assets/Grass Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Grass Assets/Grass.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Grass Assets/Grass.fbx.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +36,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/GrassFader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChildrenMaterialModifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierColor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -52,6 +54,7 @@
         <option value="$PROJECT_DIR$/Assets/GrassFader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationSpeedController.cs" />
         <option value="$PROJECT_DIR$/Assets/ChildrenMaterialModifier.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CloneWithStaticRandomScale.cs" />
       </list>
     </option>
   </component>
@@ -102,6 +105,7 @@
       <workItem from="1613662979004" duration="6961000" />
       <workItem from="1613728393340" duration="6894000" />
       <workItem from="1613982153518" duration="3578000" />
+      <workItem from="1614005970867" duration="2115000" />
     </task>
     <servers />
   </component>

@@ -1,46 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &4772396362018032046
+--- !u!114 &8696117117765064395
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888534392634943445}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  notes: 'Alpha | Default: 0 (Visible)
-
-    Range: 0-1'
-  objectToModify: {fileID: 888534392634943445}
-  propertyToChange: _Alpha
-  lerpFromCurrent: 0
-  initialValue: 1
-  targetValue: 0
-  overDuration: 5
---- !u!114 &6969968828086510905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888534392634943445}
+  m_GameObject: {fileID: 911752493185638291}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 020b98d78c47b944b9ab1cfe3d1ec8f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   notes: 
-  objectToModify: {fileID: 888534392634943445}
+  objectToModify: {fileID: 911752493185638291}
   propertyToChange: _Alpha
   lerpFromCurrent: 0
   initialValue: 1
-  targetValue: 0
+  targetValue: 0.5
   overDuration: 5
---- !u!1001 &888534392634909045
+--- !u!1001 &911752493185734963
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -56,20 +35,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.004
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.004
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.004
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
       propertyPath: m_LocalPosition.y
@@ -81,11 +48,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
       propertyPath: m_LocalRotation.y
@@ -93,7 +60,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -109,8 +76,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
---- !u!1 &888534392634943445 stripped
+--- !u!1 &911752493185638291 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
-  m_PrefabInstance: {fileID: 888534392634909045}
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 0d0d044eaea645c4d9129400be95a322,
+    type: 3}
+  m_PrefabInstance: {fileID: 911752493185734963}
   m_PrefabAsset: {fileID: 0}

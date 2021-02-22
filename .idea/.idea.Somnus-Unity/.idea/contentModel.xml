@@ -766,13 +766,13 @@
           </e>
           <e p="README.txt" t="Include" />
         </e>
-        <e p="ChildrenMaterialModifier.cs" t="Include" />
-        <e p="GrassFader.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AnimationSpeedController.cs" t="Include" />
+          <e p="ChildrenMaterialModifier.cs" t="Include" />
           <e p="Cloner.cs" t="Include" />
           <e p="CloneToMeshPoints.cs" t="Include" />
           <e p="CloneWithStaticRandomScale.cs" t="Include" />
+          <e p="GrassFader.cs" t="Include" />
           <e p="Property Modifiers" t="Include">
             <e p="GenericMaterialModifier.cs" t="Include" />
             <e p="GenericMaterialModifierColor.cs" t="Include" />
