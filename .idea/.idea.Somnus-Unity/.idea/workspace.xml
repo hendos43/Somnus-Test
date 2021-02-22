@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="704b0dd6-9d27-493b-8910-38e6aeab0db7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationSpeedController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationSpeedController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Somnus_Shaders/Grass Assets/Grass Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Somnus_Shaders/Grass Assets/Grass Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChildrenMaterialModifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChildrenMaterialModifier.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +49,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierVector3.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifier.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierColor.cs" />
-        <option value="$PROJECT_DIR$/Assets/ChildrenMaterialModifier.cs" />
         <option value="$PROJECT_DIR$/Assets/GrassFader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationSpeedController.cs" />
+        <option value="$PROJECT_DIR$/Assets/ChildrenMaterialModifier.cs" />
       </list>
     </option>
   </component>
@@ -103,7 +101,7 @@
       <workItem from="1613482223689" duration="4707000" />
       <workItem from="1613662979004" duration="6961000" />
       <workItem from="1613728393340" duration="6894000" />
-      <workItem from="1613982153518" duration="2604000" />
+      <workItem from="1613982153518" duration="3578000" />
     </task>
     <servers />
   </component>

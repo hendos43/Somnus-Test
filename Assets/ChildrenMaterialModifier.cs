@@ -43,15 +43,16 @@ public class ChildrenMaterialModifier : MonoBehaviour
             //Debug.Log(initialValue);
         }
 
-        StartCoroutine(LerpFunction(targetValue, overDuration));
-    }
-
-    IEnumerator LerpFunction(float endValue, float duration)
-    {
 
         foreach (Renderer rend in rends)
         {
+            StartCoroutine(LerpFunction(targetValue, overDuration, rend));
+        }
+    }
 
+    IEnumerator LerpFunction(float endValue, float duration, Renderer rend)
+    {
+      
             float time = 0;
             valueToChange = initialValue;
             float startValue = initialValue;
@@ -71,6 +72,6 @@ public class ChildrenMaterialModifier : MonoBehaviour
             //Set final value
             rend.material.SetFloat(propertyToChange, valueToChange);
 
-        }
+        
     }
 }
