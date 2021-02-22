@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,11 @@ public class AnimationSpeedController : MonoBehaviour
 
         m_animator = gameObject.GetComponent<Animator>();
 
+    }
+
+    private void OnEnable()
+    {
+        animationSpeed = 1;
     }
 
     void Update()
@@ -33,5 +39,11 @@ public class AnimationSpeedController : MonoBehaviour
 
         m_animator.SetFloat("animSpeedFactor", animationSpeed);
 
+    }
+
+    private void OnDisable()
+    {
+        animationSpeed = -0.5f;
+        m_animator.SetFloat("animSpeedFactor", animationSpeed);
     }
 }
