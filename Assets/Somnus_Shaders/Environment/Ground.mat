@@ -37,7 +37,7 @@ Material:
     - _NoiseSpeed1: 0.04
     - _OuterDiameter: 0.45
     - _OutsideDiameter: 0.39
-    - _RingDiameter: 0.7
+    - _RingDiameter: 0.81
     - _RingWidth: 0.26
     - _ShadowOpacity: 1.84
     - _ShadowOpacity1: 1.232578

@@ -766,6 +766,7 @@
           </e>
           <e p="README.txt" t="Include" />
         </e>
+        <e p="ChildrenMaterialModifier.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AnimationSpeedController.cs" t="Include" />
           <e p="Cloner.cs" t="Include" />

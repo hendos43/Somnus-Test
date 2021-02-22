@@ -21,10 +21,10 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _DisplacementFactor: 1.55
-    - _GradientContrast: 4.16
+    - _DisplacementFactor: 2
+    - _GradientContrast: 4
     - _GradientContrast1: 4.47
-    - _ShadowStrength: 0.31
+    - _ShadowStrength: 0.35
     - _TessMax: 200
     - _TessMin: 10
     - _TessValue: 3

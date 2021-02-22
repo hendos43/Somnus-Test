@@ -201,6 +201,163 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3948ff59c41896c4f866d0c54655b4fa, type: 3}
   m_PrefabInstance: {fileID: 255246920}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &183443687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183443684}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8846e0ab20bd4b4d8212247c3783511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Floor Colour
+
+    Use colours with Value around 50% to stop blowout to
+    white'
+  objectToModify: {fileID: 183443684}
+  propertyToChange: _MainColor
+  lerpFromCurrent: 0
+  initialValue: {r: 0.2, g: 0.4745098, b: 0.5568628, a: 0}
+  targetValue: {r: 0, g: 0.5471698, b: 0.3379579, a: 0}
+  overDuration: 5
+--- !u!114 &183443688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183443684}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Displacement Power | Default = 0.18
+
+    Range=  0~0.3'
+  objectToModify: {fileID: 183443684}
+  propertyToChange: _DisplacementPower
+  lerpFromCurrent: 1
+  initialValue: 0
+  targetValue: 0.3
+  overDuration: 5
+--- !u!114 &183443689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183443684}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Lerp between Voronoi & Noise | Default 0.5
+
+    Range = 0 (Voronoi) - 1
+    (Noise)
+
+    More like from 0.2 (no variation at 0)'
+  objectToModify: {fileID: 183443684}
+  propertyToChange: _Lerp
+  lerpFromCurrent: 0
+  initialValue: 0.2
+  targetValue: 1
+  overDuration: 5
+--- !u!114 &183443690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183443684}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Ring Diameter | Default: 0.8
+
+    Range: 0.4 (Outside dome) - 4 (In Centre)'
+  objectToModify: {fileID: 183443684}
+  propertyToChange: _RingDiameter
+  lerpFromCurrent: 0
+  initialValue: 0.4
+  targetValue: 4
+  overDuration: 5
+--- !u!114 &183443691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183443684}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Noise Scale | Default: 10
+
+    Range: 2 (wide) -15
+
+    Use 2+ seconds
+    per unit of change for smooth transition'
+  objectToModify: {fileID: 183443684}
+  propertyToChange: _NoiseScale
+  lerpFromCurrent: 0
+  initialValue: 2
+  targetValue: 15
+  overDuration: 26
+--- !u!114 &183443692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183443684}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Voronoi Scale | Default: 100
+
+    Range: 100-20 (Fat blobs)
+
+    Use at
+    least 1 second per 10 units | Could be good to transition out of Voronoi'
+  objectToModify: {fileID: 183443684}
+  propertyToChange: _VoronoiScale
+  lerpFromCurrent: 0
+  initialValue: 100
+  targetValue: 20
+  overDuration: 8
+--- !u!114 &183443693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183443684}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Noise Speed | Default: 0.05
+
+    Range 0 - 0.1 (fast)'
+  objectToModify: {fileID: 183443684}
+  propertyToChange: _NoiseSpeed
+  lerpFromCurrent: 0
+  initialValue: 0
+  targetValue: 0.1
+  overDuration: 5
 --- !u!1 &189949692 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e0ed89394e8ace04d8eed5dadcdf2608, type: 3}
@@ -407,6 +564,73 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2758674343ac2e344b2a01edf3b24eb3, type: 3}
+--- !u!1 &642249323 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f242f80319b75f4d8df11ab6d57399f, type: 3}
+  m_PrefabInstance: {fileID: 1426608238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &642249326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642249323}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: "Global Noise Scale | Default = 0.25 \nGood Range ~ 0.2-0.5 | Use Long Lerp
+    times"
+  objectToModify: {fileID: 642249323}
+  propertyToChange: _GlobalNoiseScale
+  lerpFromCurrent: 0
+  initialValue: 0.25
+  targetValue: 0.5
+  overDuration: 10
+--- !u!114 &642249327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642249323}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Hue | Default = 0.58
+
+    0.58 - 1 moves from blue to pink'
+  objectToModify: {fileID: 642249323}
+  propertyToChange: _Hue
+  lerpFromCurrent: 0
+  initialValue: 0.58
+  targetValue: 1
+  overDuration: 5
+--- !u!114 &642249328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642249323}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Skyfall | Default 2 (Up)
+
+    Range: 2-0 (fully down)'
+  objectToModify: {fileID: 642249323}
+  propertyToChange: _SkyFall
+  lerpFromCurrent: 0
+  initialValue: 2
+  targetValue: 0
+  overDuration: 5
 --- !u!1 &667327453
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,6 +1053,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2758674343ac2e344b2a01edf3b24eb3, type: 3}
   m_PrefabInstance: {fileID: 408632617}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1174496089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 288bfe4ae7c20d641b52d7bd3627efac, type: 3}
+  m_PrefabInstance: {fileID: 1985948311}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1174496092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174496089}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Lerp (screen displacement) | Default: 0 (no displacement)
+
+    Range: 0-1'
+  objectToModify: {fileID: 1174496089}
+  propertyToChange: _Lerp
+  lerpFromCurrent: 0
+  initialValue: 0
+  targetValue: 1
+  overDuration: 5
+--- !u!114 &1174496093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174496089}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 199ab129e07c36a4682391272b642a9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Tiling of Video | Default (3,1,0)
+
+'
+  objectToModify: {fileID: 1174496089}
+  propertyToChange: _Tiling
+  lerpFromCurrent: 0
+  initialValue: {x: 3, y: 1, z: 0}
+  targetValue: {x: 6, y: 2, z: 0}
+  overDuration: 5
 --- !u!1 &1240044804 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dd2a02343b5b37246920fb9adf46f532, type: 3}
@@ -865,12 +1136,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240044804}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 042c57fea61edad46a2d9d46a50e9f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animationSpeed: 0
+--- !u!114 &1240044808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240044804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adb1eb6ed922ee448b45b9ae47ecae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Gradient Contrast (Colour & Displacement) | Default: 4
+
+    Range: 0-4'
+  objectToModify: {fileID: 1240044804}
+  propertyToChange: _GradientContrast
+  lerpFromCurrent: 0
+  initialValue: 0
+  targetValue: 4
+  overDuration: 5
 --- !u!1001 &1312532477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1064,6 +1356,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7f242f80319b75f4d8df11ab6d57399f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73718e38e7284f241a75efd04aedd2ad, type: 2}
     - target: {fileID: 919132149155446097, guid: 7f242f80319b75f4d8df11ab6d57399f, type: 3}
       propertyPath: m_Name
       value: Seamless Skydome
@@ -1422,9 +1718,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1923250861}
-  - component: {fileID: 1923250860}
-  - component: {fileID: 1923250862}
-  - component: {fileID: 1923250863}
   m_Layer: 0
   m_Name: --EVENT SCRIPTS--
   m_TagString: Untagged
@@ -1432,25 +1725,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1923250860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923250859}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  notes: Change Floor Displacement Power
-  objectToModify: {fileID: 183443684}
-  propertyToChange: _DisplacementPower
-  lerpFromCurrent: 1
-  initialValue: 0.18
-  targetValue: 0.5
-  overDuration: 5
 --- !u!4 &1923250861
 Transform:
   m_ObjectHideFlags: 0
@@ -1465,44 +1739,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1923250862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923250859}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 199ab129e07c36a4682391272b642a9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  notes: 
-  objectToModify: {fileID: 183443684}
-  propertyToChange: _MainColor
-  lerpFromCurrent: 0
-  initialValue: {x: 0.1, y: 0.8, z: 0.1}
-  targetValue: {x: 0.5, y: 0.2, z: 0.1}
-  overDuration: 5
---- !u!114 &1923250863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923250859}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8846e0ab20bd4b4d8212247c3783511, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  notes: 
-  objectToModify: {fileID: 183443684}
-  propertyToChange: _MainColor
-  lerpFromCurrent: 0
-  initialValue: {r: 0.8207547, g: 0.24390352, b: 0.6627241, a: 0}
-  targetValue: {r: 0.2460395, g: 0.9150943, b: 0.6601697, a: 0}
-  overDuration: 5
 --- !u!1001 &1985948311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1572,7 +1808,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 06c3af5a043ea2641a6ef12df56f7a87, type: 2}
     - target: {fileID: 919132149155446097, guid: 288bfe4ae7c20d641b52d7bd3627efac, type: 3}
       propertyPath: m_Name
-      value: Screen-test
+      value: Screen
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 288bfe4ae7c20d641b52d7bd3627efac, type: 3}
       propertyPath: m_IsActive
@@ -1616,7 +1852,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004624968}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 042c57fea61edad46a2d9d46a50e9f19, type: 3}
   m_Name: 
