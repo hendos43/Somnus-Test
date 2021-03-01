@@ -40,7 +40,7 @@ Material:
     - _NoiseScale: 100
     - _NoiseSpeed: 0.0001
     - _Sat: 0.88
-    - _SkyFall: 2
+    - _SkyFall: 0
     - _TessValue: 16
     - _Tiling: 2
     - _Val: 1.5
@@ -49,4 +49,3 @@ Material:
     - _Color0: {r: 0.0047169924, g: 0.8943062, b: 1, a: 0}
     - _Color1: {r: 0, g: 0.59594154, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
