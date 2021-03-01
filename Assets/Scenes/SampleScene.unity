@@ -175,7 +175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &119775520
 Transform:
   m_ObjectHideFlags: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119775519}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8846e0ab20bd4b4d8212247c3783511, type: 3}
   m_Name: 
@@ -208,7 +208,7 @@ MonoBehaviour:
     white'
   objectToModify: {fileID: 183443684}
   propertyToChange: _MainColor
-  lerpFromCurrent: 0
+  lerpFromCurrent: 1
   initialValue: {r: 0.2, g: 0.4745098, b: 0.5568628, a: 0}
   targetValue: {r: 0, g: 0.5471698, b: 0.3379579, a: 0}
   overDuration: 5
@@ -618,7 +618,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &307391953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1822,6 +1822,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animatedFBX: {fileID: 2004624968}
   animationSpeed: 0
+--- !u!1 &1028502054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1028502055}
+  - component: {fileID: 1028502056}
+  m_Layer: 0
+  m_Name: Noise Lerp (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1028502055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028502054}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.08057022, y: 7.157382, z: -10.750384}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1087148769}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1028502056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028502054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Lerp between Voronoi & Noise | Default 0.5
+
+    Range = 0 (Voronoi) - 1
+    (Noise)
+
+    More like from 0.2 (no variation at 0)'
+  objectToModify: {fileID: 183443684}
+  propertyToChange: _Lerp
+  lerpFromCurrent: 1
+  initialValue: 0.2
+  targetValue: 1
+  overDuration: 5
 --- !u!1 &1040500534
 GameObject:
   m_ObjectHideFlags: 0
@@ -1874,6 +1929,38 @@ MonoBehaviour:
   initialValue: 0.58
   targetValue: 1
   overDuration: 5
+--- !u!1 &1087148768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1087148769}
+  m_Layer: 0
+  m_Name: DoBoth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1087148769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087148768}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.1518593, y: 0.70977974, z: 6.3382263}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1968777714}
+  - {fileID: 1028502055}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1137908999 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2758674343ac2e344b2a01edf3b24eb3,
@@ -2085,7 +2172,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e0ed89394e8ace04d8eed5dadcdf2608,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0ed89394e8ace04d8eed5dadcdf2608, type: 3}
@@ -2464,7 +2551,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd2a02343b5b37246920fb9adf46f532,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd2a02343b5b37246920fb9adf46f532, type: 3}
@@ -2743,6 +2830,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1968777713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1968777714}
+  - component: {fileID: 1968777715}
+  m_Layer: 0
+  m_Name: Displacement (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1968777714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968777713}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.08057022, y: 7.157382, z: -10.750384}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1087148769}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1968777715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968777713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e11e39537803aa4cadb7749c1e34e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 'Displacement Power | Default = 0.18
+
+    Range=  0~0.3'
+  objectToModify: {fileID: 183443684}
+  propertyToChange: _DisplacementPower
+  lerpFromCurrent: 1
+  initialValue: 0
+  targetValue: 0.3
+  overDuration: 5
 --- !u!1001 &1985948311
 PrefabInstance:
   m_ObjectHideFlags: 0

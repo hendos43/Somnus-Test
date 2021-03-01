@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="704b0dd6-9d27-493b-8910-38e6aeab0db7" name="Default Changelist" comment="" />
+    <list default="true" id="704b0dd6-9d27-493b-8910-38e6aeab0db7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,26 +34,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierColor.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/RandomRotate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CloneToMeshPoints.cs" />
-        <option value="$PROJECT_DIR$/Assets/CloneWithStaticRandomScale.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cloner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RandomMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GenericMaterialModifier.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GenericMaterialModifierVector3.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierVector3.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifier.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierColor.cs" />
-        <option value="$PROJECT_DIR$/Assets/GrassFader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationSpeedController.cs" />
-        <option value="$PROJECT_DIR$/Assets/ChildrenMaterialModifier.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CloneWithStaticRandomScale.cs" />
-      </list>
-    </option>
   </component>
   <component name="ProjectId" id="1oLGtqsjPAWZh2oRB4aXZmQ9R8M" />
   <component name="ProjectViewState">
@@ -68,7 +52,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -77,7 +61,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -99,6 +83,8 @@
       <workItem from="1613728393340" duration="6894000" />
       <workItem from="1613982153518" duration="3578000" />
       <workItem from="1614005970867" duration="2116000" />
+      <workItem from="1614595172972" duration="803000" />
+      <workItem from="1614608361805" duration="603000" />
     </task>
     <servers />
   </component>
