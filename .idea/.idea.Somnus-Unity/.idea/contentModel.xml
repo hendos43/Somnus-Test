@@ -790,6 +790,7 @@
           <e p="RandomMove.cs" t="Include" />
           <e p="RandomRotate.cs" t="Include" />
           <e p="RandomScale.cs" t="Include" />
+          <e p="RotateY.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
         <e p="Somnus_Shaders" t="Include">

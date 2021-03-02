@@ -21,11 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="704b0dd6-9d27-493b-8910-38e6aeab0db7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Somnus-Unity/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stephen_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stephen_Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CloneToMeshPoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CloneToMeshPoints.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CloneWithStaticRandomScale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CloneWithStaticRandomScale.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +35,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Property Modifiers/GenericMaterialModifierColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LerpVector3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RotateY.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -46,6 +44,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/CloneWithStaticRandomScale.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CloneToMeshPoints.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Property Modifiers/FadeOut.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RotateY.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oLGtqsjPAWZh2oRB4aXZmQ9R8M" />
@@ -98,7 +97,7 @@
       <workItem from="1614005970867" duration="2116000" />
       <workItem from="1614595172972" duration="803000" />
       <workItem from="1614608361805" duration="1234000" />
-      <workItem from="1614685575452" duration="6716000" />
+      <workItem from="1614685575452" duration="9000000" />
     </task>
     <servers />
   </component>
