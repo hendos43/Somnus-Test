@@ -20,7 +20,7 @@ MonoBehaviour:
   lerpFromCurrent: 0
   initialValue: 0.5
   targetValue: 1
-  overDuration: 5
+  overDuration: 30
 --- !u!1001 &5425716529939880175
 PrefabInstance:
   m_ObjectHideFlags: 0
