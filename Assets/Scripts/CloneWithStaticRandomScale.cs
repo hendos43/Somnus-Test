@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Timers;
+using Property_Modifiers;
 using UnityEngine;
 using Random = System.Random;
 
@@ -12,11 +14,14 @@ public class CloneWithStaticRandomScale : MonoBehaviour
     
     //public Vector3 cloneScale = new Vector3(1, 1, 1);
 
-    private List<GameObject> clones = new List<GameObject>();
+    public List<GameObject> clones = new List<GameObject>();
     
     public Vector3 worldSpaceOffset = new Vector3(0,0,0);
     
     public Vector3 rotationOffset = new Vector3();
+
+    [Header("Select Game Object to control Fade Out:")]
+    public GameObject pushListToFader;
     
     // Start is called before the first frame update
     void OnEnable()
@@ -49,6 +54,15 @@ public class CloneWithStaticRandomScale : MonoBehaviour
             thisClone.transform.parent = gameObject.transform;
             clones.Add(thisClone);
 
+            if (pushListToFader != null)
+            {
+                if (pushListToFader.TryGetComponent(out FadeOut fader))
+                {
+                    fader.clones.Add(thisClone);
+                }
+            }
+
+
 
         }
 
@@ -57,17 +71,37 @@ public class CloneWithStaticRandomScale : MonoBehaviour
 
     private void OnDisable()
     {
+        
         foreach (GameObject clone in clones)
         {
             Destroy(clone);
         }
-        
+       
         clones.Clear();
+
+
+        if (pushListToFader != null)
+        {
+            if (pushListToFader.TryGetComponent(out FadeOut fader))
+            {
+                foreach (GameObject clone in fader.clones)
+                {
+                    Destroy(clone);
+                }
+
+                fader.clones.Clear();
+            }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
         
-    }
+
+        
+
+
+
+
+
+
+
 }

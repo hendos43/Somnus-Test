@@ -15,6 +15,10 @@ public class CloneToMeshPoints : MonoBehaviour
     
     public Vector3 worldSpaceOffset = new Vector3(0,0,0);
     
+    [Header("Select Game Object to control Fade Out:")]
+    public GameObject pushListToFader;
+
+    
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -43,6 +47,13 @@ public class CloneToMeshPoints : MonoBehaviour
            thisClone.transform.parent = gameObject.transform;
            clones.Add(thisClone);
 
+           if (pushListToFader != null)
+           {
+               if (pushListToFader.TryGetComponent(out FadeOut fader))
+               {
+                   fader.clones.Add(thisClone);
+               }
+           }
 
         }
 
@@ -57,6 +68,19 @@ public class CloneToMeshPoints : MonoBehaviour
         }
         
         clones.Clear();
+        
+        if (pushListToFader != null)
+        {
+            if (pushListToFader.TryGetComponent(out FadeOut fader))
+            {
+                foreach (GameObject clone in fader.clones)
+                {
+                    Destroy(clone);
+                }
+
+                fader.clones.Clear();
+            }
+        }
     }
 
     // Update is called once per frame

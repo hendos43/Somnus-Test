@@ -122,6 +122,51 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &114042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 114044}
+  - component: {fileID: 114043}
+  m_Layer: 0
+  m_Name: GrassFader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &114043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb22b9f78758e1429cf34ac32a66682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeDuration: 10
+  clones: []
+--- !u!4 &114044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.012848, y: 40.75876, z: 34.30197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &48298784
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +342,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f9372fcc368299a4786160f75e6da4d4,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9372fcc368299a4786160f75e6da4d4, type: 3}
@@ -634,8 +679,10 @@ MonoBehaviour:
   meshObject: {fileID: 189949692}
   cloneObject: {fileID: 911752493185638291, guid: b37e042a29e6ddc4289983a00afaf774,
     type: 3}
+  clones: []
   worldSpaceOffset: {x: 0, y: 0, z: 0}
   rotationOffset: {x: 0, y: 0, z: -90}
+  pushListToFader: {fileID: 114042}
 --- !u!4 &307391954
 Transform:
   m_ObjectHideFlags: 0
@@ -952,7 +999,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &469717369
 Transform:
   m_ObjectHideFlags: 0
@@ -974,7 +1021,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 469717368}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 992744f384ad5104eb3c875e37891119, type: 3}
   m_Name: 
@@ -984,6 +1031,7 @@ MonoBehaviour:
     type: 3}
   cloneScale: {x: 10, y: 10, z: 10}
   worldSpaceOffset: {x: 0, y: 0, z: 0}
+  pushListToFader: {fileID: 2121799216}
 --- !u!1 &562720976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,6 +1183,7 @@ MonoBehaviour:
     type: 3}
   cloneScale: {x: 2, y: 2, z: 2}
   worldSpaceOffset: {x: 0, y: 0.5, z: 0}
+  pushListToFader: {fileID: 0}
 --- !u!1 &642249323 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f242f80319b75f4d8df11ab6d57399f,
@@ -1367,6 +1416,7 @@ MonoBehaviour:
     type: 3}
   cloneScale: {x: 1, y: 1, z: 1}
   worldSpaceOffset: {x: 0, y: 0, z: 0}
+  pushListToFader: {fileID: 0}
 --- !u!4 &699037811
 Transform:
   m_ObjectHideFlags: 0
@@ -1398,6 +1448,7 @@ MonoBehaviour:
     type: 3}
   cloneScale: {x: 1, y: 1, z: 1}
   worldSpaceOffset: {x: 0, y: 0, z: 0}
+  pushListToFader: {fileID: 0}
 --- !u!114 &699037813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1415,6 +1466,7 @@ MonoBehaviour:
     type: 3}
   cloneScale: {x: 10, y: 10, z: 10}
   worldSpaceOffset: {x: 0, y: 0, z: 0}
+  pushListToFader: {fileID: 0}
 --- !u!114 &699037814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1432,6 +1484,7 @@ MonoBehaviour:
     type: 3}
   cloneScale: {x: 2, y: 2, z: 2}
   worldSpaceOffset: {x: 0, y: 0.5, z: 0}
+  pushListToFader: {fileID: 0}
 --- !u!1 &730227731
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,6 +2482,7 @@ MonoBehaviour:
     type: 3}
   cloneScale: {x: 1, y: 1, z: 1}
   worldSpaceOffset: {x: 0, y: 0, z: 0}
+  pushListToFader: {fileID: 0}
 --- !u!114 &1440986735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2446,6 +2500,7 @@ MonoBehaviour:
     type: 3}
   cloneScale: {x: 1, y: 1, z: 1}
   worldSpaceOffset: {x: 0, y: 0, z: 0}
+  pushListToFader: {fileID: 0}
 --- !u!1 &1461842759
 GameObject:
   m_ObjectHideFlags: 0
@@ -2551,7 +2606,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd2a02343b5b37246920fb9adf46f532,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd2a02343b5b37246920fb9adf46f532, type: 3}
@@ -3339,6 +3394,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1461842760}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2121799216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2121799218}
+  - component: {fileID: 2121799217}
+  m_Layer: 0
+  m_Name: ScaffFader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2121799217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121799216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb22b9f78758e1429cf34ac32a66682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeDuration: 10
+  clones: []
+--- !u!4 &2121799218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121799216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.012848, y: 40.75876, z: 34.30197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2135865873
 GameObject:

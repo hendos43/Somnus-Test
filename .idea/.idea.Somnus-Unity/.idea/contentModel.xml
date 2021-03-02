@@ -780,7 +780,9 @@
           <e p="CloneToMeshPoints.cs" t="Include" />
           <e p="CloneWithStaticRandomScale.cs" t="Include" />
           <e p="GrassFader.cs" t="Include" />
+          <e p="LerpVector3.cs" t="Include" />
           <e p="Property Modifiers" t="Include">
+            <e p="FadeOut.cs" t="Include" />
             <e p="GenericMaterialModifier.cs" t="Include" />
             <e p="GenericMaterialModifierColor.cs" t="Include" />
             <e p="GenericMaterialModifierVector3.cs" t="Include" />
