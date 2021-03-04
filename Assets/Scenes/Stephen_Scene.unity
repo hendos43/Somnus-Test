@@ -3443,6 +3443,7 @@ GameObject:
   - component: {fileID: 485089535}
   - component: {fileID: 485089534}
   - component: {fileID: 485089533}
+  - component: {fileID: 485089536}
   m_Layer: 0
   m_Name: MoonBall (1)
   m_TagString: Untagged
@@ -3458,8 +3459,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485089531}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 18.444864, z: 0}
-  m_LocalScale: {x: 8.392313, y: 8.392313, z: 8.392313}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 1558777801}
   m_RootOrder: 2
@@ -3524,6 +3525,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485089531}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &485089536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485089531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0283a0780d9fa9c41bc59795ce8df84d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 
+  objectToModify: {fileID: 485089531}
+  lerpFromCurrent: 0
+  initialValue: {x: 0, y: 0, z: 0}
+  targetValue: {x: 0, y: 8, z: 0}
+  overDuration: 1
 --- !u!1 &486772670
 GameObject:
   m_ObjectHideFlags: 0
@@ -5931,6 +5950,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   degreesPerSecond: 30
+--- !u!114 &955740891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955740886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0283a0780d9fa9c41bc59795ce8df84d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 
+  objectToModify: {fileID: 955740886}
+  lerpFromCurrent: 0
+  initialValue: {x: 0, y: -330, z: 0}
+  targetValue: {x: 0, y: -311.28, z: 0}
+  overDuration: 1
 --- !u!1 &957176181
 GameObject:
   m_ObjectHideFlags: 0
@@ -6851,6 +6888,7 @@ GameObject:
   - component: {fileID: 1076194558}
   - component: {fileID: 1076194557}
   - component: {fileID: 1076194556}
+  - component: {fileID: 1076194559}
   m_Layer: 0
   m_Name: MoonBall
   m_TagString: Untagged
@@ -6866,8 +6904,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076194554}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 18.444862, z: 0}
-  m_LocalScale: {x: 8.392313, y: 8.392313, z: 8.392313}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 1977770378}
   m_RootOrder: 2
@@ -6932,6 +6970,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076194554}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1076194559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076194554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0283a0780d9fa9c41bc59795ce8df84d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 
+  objectToModify: {fileID: 1076194554}
+  lerpFromCurrent: 0
+  initialValue: {x: 0, y: 0, z: 0}
+  targetValue: {x: 0, y: 8, z: 0}
+  overDuration: 1
 --- !u!1 &1079046980
 GameObject:
   m_ObjectHideFlags: 0
@@ -10899,7 +10955,7 @@ MonoBehaviour:
   meshObject: {fileID: 1810130160}
   cloneObject: {fileID: 8243193234292376691, guid: 860fd1223af52c94c924304e2379962a,
     type: 3}
-  cloneScale: {x: 1, y: 1, z: 1}
+  cloneScale: {x: 5, y: 5, z: 5}
   worldSpaceOffset: {x: 0, y: 0, z: 0}
   pushListToFader: {fileID: 0}
 --- !u!1 &1780949330
@@ -12761,6 +12817,7 @@ GameObject:
   - component: {fileID: 1984678807}
   - component: {fileID: 1984678806}
   - component: {fileID: 1984678805}
+  - component: {fileID: 1984678808}
   m_Layer: 0
   m_Name: MoonBall
   m_TagString: Untagged
@@ -12776,8 +12833,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984678803}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 18.444862, z: 0}
-  m_LocalScale: {x: 8.392313, y: 8.392313, z: 8.392313}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 1368665291}
   m_RootOrder: 2
@@ -12842,6 +12899,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984678803}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1984678808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984678803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0283a0780d9fa9c41bc59795ce8df84d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: 
+  objectToModify: {fileID: 1984678803}
+  lerpFromCurrent: 0
+  initialValue: {x: 0, y: 0, z: 0}
+  targetValue: {x: 0, y: 8, z: 0}
+  overDuration: 1
 --- !u!1 &1986580421
 GameObject:
   m_ObjectHideFlags: 0
