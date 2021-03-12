@@ -30,6 +30,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -60,11 +64,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -72,6 +76,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 0d0d044eaea645c4d9129400be95a322, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

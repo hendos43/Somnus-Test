@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: ec461afdb7b05894cb1f55cc5aaa9185, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap:
@@ -243,7 +243,7 @@ Material:
     - _UVDetail: 0
     - _UVEmissive: 0
     - _UseShadowThreshold: 0
-    - _WindStrength: 0.66
+    - _WindStrength: 0.2
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestModeDistortion: 8
@@ -256,8 +256,8 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GrassBaseColor: {r: 0.06732377, g: 0.1509434, b: 0.013527942, a: 0}
-    - _GrassColor: {r: 0.08495018, g: 0.7830189, b: 0.14547504, a: 0}
+    - _GrassBaseColor: {r: 0.067323744, g: 0.15094337, b: 0.013527942, a: 0}
+    - _GrassColor: {r: 0.1363166, g: 0.45283014, b: 0.12602347, a: 0}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
@@ -266,4 +266,4 @@ Material:
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
-    - _WindMovement: {r: 1, g: 0, b: 0, a: 0}
+    - _WindMovement: {r: 0.5, g: 0, b: 0, a: 0}

@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: f14570e22d2d1784c80e9e572bd4ac42, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -20,6 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
+    - _Alpha: 0.68
     - _AlphaCutoff: 0.5
     - _DisplacementFactor: 2
     - _GradientContrast: 4
@@ -34,4 +35,3 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Swim4: {r: 0.32941177, g: 0.8980392, b: 0.6331443, a: 0}
     - _Swim5: {r: 0.14509803, g: 0.81960785, b: 0.63088775, a: 0}
-  m_BuildTextureStacks: []

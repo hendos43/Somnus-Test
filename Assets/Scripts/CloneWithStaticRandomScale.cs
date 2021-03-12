@@ -46,6 +46,8 @@ public class CloneWithStaticRandomScale : MonoBehaviour
         {
 
             float thisCloneScale = UnityEngine.Random.Range(0.5f, 1.5f);
+            //float thisCloneScale = 1f;
+
             
            // Vector3 randomRotation = new Vector3(1, UnityEngine.Random.Range(0f,360f), 1);
 
