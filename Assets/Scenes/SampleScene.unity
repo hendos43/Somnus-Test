@@ -342,7 +342,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f9372fcc368299a4786160f75e6da4d4,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9372fcc368299a4786160f75e6da4d4, type: 3}
@@ -632,6 +632,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 3948ff59c41896c4f866d0c54655b4fa,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3948ff59c41896c4f866d0c54655b4fa,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3948ff59c41896c4f866d0c54655b4fa,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e53ffb4bdde10da43bd2ba2f71bf1524, type: 2}
@@ -643,12 +653,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3948ff59c41896c4f866d0c54655b4fa,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3948ff59c41896c4f866d0c54655b4fa,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3948ff59c41896c4f866d0c54655b4fa, type: 3}
@@ -2240,7 +2250,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e0ed89394e8ace04d8eed5dadcdf2608,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e0ed89394e8ace04d8eed5dadcdf2608,
         type: 3}
@@ -2455,7 +2465,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7f242f80319b75f4d8df11ab6d57399f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f242f80319b75f4d8df11ab6d57399f, type: 3}
@@ -2987,6 +2997,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Assembling Landscape
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd2a02343b5b37246920fb9adf46f532,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd2a02343b5b37246920fb9adf46f532, type: 3}

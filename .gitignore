@@ -67,3 +67,346 @@ Assets/Video/Kotsios_Optimized.mp4
 Assets/Video/Kotsios_Optimized_1.webm
 Assets/Video/DJ.webm
 Assets/Video/Kotsios_Optimized_1.webm.xmp
+Assets/AmplifyShaderEditor/Examples/Assets.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Materials.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/BrushedMetal.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/BrushedMetal.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/CalibrationFloor.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/CalibrationFloor.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/RedLight.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/RedLight.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/Rock.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/Rock.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/Rubber.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/Rubber.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/URP.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/URP/Universal BrushedMetal.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/URP/Universal BrushedMetal.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/URP/Universal CalibrationFloor.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/URP/Universal CalibrationFloor.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/URP/Universal Rubber.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Materials/URP/Universal Rubber.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/CalibrationScaleRGB.fbx
+Assets/AmplifyShaderEditor/Examples/Assets/Models/CalibrationScaleRGB.fbx.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/headlow.fbx
+Assets/AmplifyShaderEditor/Examples/Assets/Models/headlow.fbx.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/ae5524-1.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/ae5524-1.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/CalibrationRGBScale.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/CalibrationRGBScale.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/default.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/default.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/df5524-4.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/df5524-4.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/Ground.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/Ground.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/No Name.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/No Name.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/Terrain.mat
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Materials/Terrain.mat.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/RoundedCube.fbx
+Assets/AmplifyShaderEditor/Examples/Assets/Models/RoundedCube.fbx.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Shaderball2.FBX
+Assets/AmplifyShaderEditor/Examples/Assets/Models/Shaderball2.FBX.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/smallmountain.fbx
+Assets/AmplifyShaderEditor/Examples/Assets/Models/smallmountain.fbx.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/smallwater.fbx
+Assets/AmplifyShaderEditor/Examples/Assets/Models/smallwater.fbx.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/tv.fbx
+Assets/AmplifyShaderEditor/Examples/Assets/Models/tv.fbx.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Models/WallPanel.fbx
+Assets/AmplifyShaderEditor/Examples/Assets/Models/WallPanel.fbx.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Prefabs.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/Ambient-Occlusion.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/Ambient-Occlusion/GrassBlades.prefab
+Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/Ambient-Occlusion/GrassBlades.prefab.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/RoundedCube.prefab
+Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/RoundedCube.prefab.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/SceneElements.prefab
+Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/SceneElements.prefab.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/ShaderBall.prefab
+Assets/AmplifyShaderEditor/Examples/Assets/Prefabs/ShaderBall.prefab.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Decal_BaseColor.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Decal_BaseColor.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Decal_Emissive.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Decal_Emissive.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Decal_MaskMap.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Decal_MaskMap.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Decal_Normal.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Decal_Normal.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/dirt_decal_BaseColor.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/dirt_decal_BaseColor.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/dirt_decal_mask.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/dirt_decal_mask.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Dirt_Decal_Normal.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Dirt_Decal_Normal.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Dirt_diffuse.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Dirt_diffuse.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Dirt_height.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Dirt_height.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Dirt_normal.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Dirt_normal.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/Fakewindow_v1.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/Fakewindow_v1.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/Fakewindow_v2.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/Fakewindow_v2.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/Fakewindow_v3.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/Fakewindow_v3.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/FakeWindowsMask.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/FakeWindowsMask.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass/Grass_A.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass/Grass_A.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass/Grass_N.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass/Grass_N.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass/GrassBlades.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass/GrassBlades.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass/terrain_grass_01_a.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass/terrain_grass_01_a.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass/terrain_grass_01_n.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass/terrain_grass_01_n.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/AnisoMap.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/AnisoMap.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/BaseColor.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/BaseColor.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/BaseColorMask.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/BaseColorMask.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/BlueNoise.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/BlueNoise.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Burnt_normals.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Burnt_normals.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Checkers.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Checkers.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/CoatNormal.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/CoatNormal.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/ColoredNumberAtlas.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/ColoredNumberAtlas.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Cubemap.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Cubemap.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Depth.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Depth.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Falloff.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Falloff.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Flakes.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Flakes.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/FlakesNormal.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/FlakesNormal.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/GreenMatcapSkin.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/GreenMatcapSkin.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/HighlightColor.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/HighlightColor.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Light.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Light.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/LightGrid.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/LightGrid.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Normal.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Normal.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/NumberAtlas.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/NumberAtlas.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/PortalNormal.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/PortalNormal.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/RainbowGradient.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/RainbowGradient.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Scanlines.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Scanlines.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Shadow.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Shadow.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/SimpleFoam.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/SimpleFoam.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/SmallWaves.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/SmallWaves.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/SmoothNoise.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/SmoothNoise.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/SquareGradient.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/SquareGradient.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/TempNoise.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/TempNoise.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/TileableFire.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/TileableFire.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/WarmToonRamp.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/WarmToonRamp.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Rock.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Rock/rock_d.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Rock/rock_d.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Rock/rock_n.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Rock/rock_n.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_ao.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_ao.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_basecolor.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_basecolor.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_height.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_height.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_metallic.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_metallic.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_normal.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_normal.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_roughness.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_roughness.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/BrushedMetalNormal.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/BrushedMetalNormal.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/BrushedMetalSpecular.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/BrushedMetalSpecular.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CalibrationFloorDiffuse.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CalibrationFloorDiffuse.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CalibrationFloorSpecularGloss.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CalibrationFloorSpecularGloss.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasDiffuse.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasDiffuse.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasNormal.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasNormal.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasSpecular.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasSpecular.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/emiss_2.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/emiss_2.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/MudNormal.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/MudNormal.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/RubberDiffuse.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/RubberDiffuse.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/RubberNormal.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/RubberNormal.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/RubberSpecular.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/RubberSpecular.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinDiffuse.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinDiffuse.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinNormal.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinNormal.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinOcclusion.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinOcclusion.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/TarpDiffuse.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/TarpDiffuse.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/TarpHeight.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/TarpHeight.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/TarpNormal.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/TarpNormal.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodDiffuse.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodDiffuse.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodNormal.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodNormal.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodOcclusion.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodOcclusion.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodSpecular.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodSpecular.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodTile.tif
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/WoodTile.tif.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow/snow_albedo.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow/snow_albedo.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow/snow_normal.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow/snow_normal.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow/snow_specular.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow/snow_specular.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sprites.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sprites/ASEIcon.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sprites/ASEIcon.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sprites/CubeMask.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sprites/CubeMask.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sprites/LogoMask.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sprites/LogoMask.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sprites/SphereMask.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sprites/SphereMask.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sprites/SpriteExampleAtlas.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sprites/SpriteExampleAtlas.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles/Tile_A.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles/Tile_A.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles/Tile_H.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles/Tile_H.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles/Tile_M.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles/Tile_M.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles/Tile_N.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles/Tile_N.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles/Tile_O.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles/Tile_O.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles/Tile_R.jpg
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/Tiles/Tile_R.jpg.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/Masks.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/Masks.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/Noise.tga
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/Noise.tga.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/ScreenHandsVDM.exr
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/ScreenHandsVDM.exr.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/SideHandsNormal.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/SideHandsNormal.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/SudeHandsVDM.exr
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/SudeHandsVDM.exr.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TopSkullNormal.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TopSkullNormal.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TopSkullVDM.exr
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TopSkullVDM.exr.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TV_Albedo.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TV_Albedo.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TV_MetallicSmoothness.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TV_MetallicSmoothness.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TV_Normal.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TV_Normal.png.meta
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TV_Normal_Hands.png
+Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TV_Normal_Hands.png.meta
+Assets/AmplifyShaderEditor/Examples/URP.meta
+Assets/AmplifyShaderEditor/Examples/URP/2D Fractal.meta
+Assets/AmplifyShaderEditor/Examples/URP/2D Fractal/SRP Universal 2D Fractal.mat
+Assets/AmplifyShaderEditor/Examples/URP/2D Fractal/SRP Universal 2D Fractal.mat.meta
+Assets/AmplifyShaderEditor/Examples/URP/2D Fractal/SRP Universal 2D Fractal.shader
+Assets/AmplifyShaderEditor/Examples/URP/2D Fractal/SRP Universal 2D Fractal.shader.meta
+Assets/AmplifyShaderEditor/Examples/URP/2D Fractal/SRP Universal 2D Fractal.unity
+Assets/AmplifyShaderEditor/Examples/URP/2D Fractal/SRP Universal 2D Fractal.unity.meta
+Assets/AmplifyShaderEditor/Examples/URP/Coverage.meta
+Assets/AmplifyShaderEditor/Examples/URP/Coverage/SRP Universal Coverage.mat
+Assets/AmplifyShaderEditor/Examples/URP/Coverage/SRP Universal Coverage.mat.meta
+Assets/AmplifyShaderEditor/Examples/URP/Coverage/SRP Universal Coverage.shader
+Assets/AmplifyShaderEditor/Examples/URP/Coverage/SRP Universal Coverage.shader.meta
+Assets/AmplifyShaderEditor/Examples/URP/Coverage/SRP Universal Coverage.unity
+Assets/AmplifyShaderEditor/Examples/URP/Coverage/SRP Universal Coverage.unity.meta
+Assets/AmplifyShaderEditor/Examples/URP/GlintSparkle.meta
+Assets/AmplifyShaderEditor/Examples/URP/GlintSparkle/SRP Universal GlintSparkle.mat
+Assets/AmplifyShaderEditor/Examples/URP/GlintSparkle/SRP Universal GlintSparkle.mat.meta
+Assets/AmplifyShaderEditor/Examples/URP/GlintSparkle/SRP Universal GlintSparkle.shader
+Assets/AmplifyShaderEditor/Examples/URP/GlintSparkle/SRP Universal GlintSparkle.shader.meta
+Assets/AmplifyShaderEditor/Examples/URP/GlintSparkle/SRP Universal GlintSparkle.unity
+Assets/AmplifyShaderEditor/Examples/URP/GlintSparkle/SRP Universal GlintSparkle.unity.meta
+Assets/AmplifyShaderEditor/Examples/URP/Terrain.meta
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/SRP Universal Terrain Add Pass.shader
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/SRP Universal Terrain Add Pass.shader.meta
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/SRP Universal Terrain Base Pass.shader
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/SRP Universal Terrain Base Pass.shader.meta
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/SRP Universal Terrain First Pass.mat
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/SRP Universal Terrain First Pass.mat.meta
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/SRP Universal Terrain First Pass.shader
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/SRP Universal Terrain First Pass.shader.meta
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/SRP Universal Terrain.asset
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/SRP Universal Terrain.asset.meta
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/SRP Universal Terrain.unity
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/SRP Universal Terrain.unity.meta
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/URP Rock Layer.terrainlayer
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/URP Rock Layer.terrainlayer.meta
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/URP Rubber Layer.terrainlayer
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/URP Rubber Layer.terrainlayer.meta
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/URP Sand Layer.terrainlayer
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/URP Sand Layer.terrainlayer.meta
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/URP Skin Layer.terrainlayer
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/URP Skin Layer.terrainlayer.meta
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/URP Snow Layer.terrainlayer
+Assets/AmplifyShaderEditor/Examples/URP/Terrain/URP Snow Layer.terrainlayer.meta
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout.meta
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/CutoutInnerMaterial.mat
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/CutoutInnerMaterial.mat.meta
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/CutoutOuterMaterial.mat
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/CutoutOuterMaterial.mat.meta
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/SimpleURPCutout.shader
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/SimpleURPCutout.shader.meta
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/SimpleURPTransparent.shader
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/SimpleURPTransparent.shader.meta
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/TransparentCutout.unity
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/TransparentCutout.unity.meta
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/TransparentInnerMaterial.mat
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/TransparentInnerMaterial.mat.meta
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/TransparentOuterMaterial.mat
+Assets/AmplifyShaderEditor/Examples/URP/Transparent Cutout/TransparentOuterMaterial.mat.meta
