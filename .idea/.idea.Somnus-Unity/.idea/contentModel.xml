@@ -22,6 +22,26 @@
             <e p="Credits.txt" t="Include" />
             <e p="DownloadSamplesInstructions.txt" t="Include" />
             <e p="README Samples.txt" t="Include" />
+            <e p="URP" t="Include">
+              <e p="2D Fractal" t="Include">
+                <e p="SRP Universal 2D Fractal.shader" t="Include" />
+              </e>
+              <e p="Coverage" t="Include">
+                <e p="SRP Universal Coverage.shader" t="Include" />
+              </e>
+              <e p="GlintSparkle" t="Include">
+                <e p="SRP Universal GlintSparkle.shader" t="Include" />
+              </e>
+              <e p="Terrain" t="Include">
+                <e p="SRP Universal Terrain Add Pass.shader" t="Include" />
+                <e p="SRP Universal Terrain Base Pass.shader" t="Include" />
+                <e p="SRP Universal Terrain First Pass.shader" t="Include" />
+              </e>
+              <e p="Transparent Cutout" t="Include">
+                <e p="SimpleURPCutout.shader" t="Include" />
+                <e p="SimpleURPTransparent.shader" t="Include" />
+              </e>
+            </e>
           </e>
           <e p="Plugins" t="Include">
             <e p="Editor" t="Include">
@@ -773,6 +793,7 @@
             <e p="Debug_Time.cs" t="Include" />
           </e>
         </e>
+        <e p="record360.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AnimationSpeedController.cs" t="Include" />
           <e p="ChildrenMaterialModifier.cs" t="Include" />
@@ -800,9 +821,16 @@
             <e p="Scaff.shader" t="Include" />
           </e>
           <e p="Environment" t="Include">
+            <e p="Floor.shader" t="Include" />
             <e p="Ground.shader" t="Include" />
+            <e p="NewTerrain.shader" t="Include" />
             <e p="Sand.shader" t="Include" />
             <e p="Sky.shader" t="Include" />
+          </e>
+          <e p="Functions" t="Include">
+            <e p="RadialGradient" t="Include">
+              <e p="README.txt" t="Include" />
+            </e>
           </e>
           <e p="Grass Assets" t="Include">
             <e p="Grass Base.shader" t="Include" />
@@ -826,6 +854,7 @@
         </e>
         <e p="Video" t="Include">
           <e p="Ribbon.shader" t="Include" />
+          <e p="Ribbon_LW.shader" t="Include" />
           <e p="Video_Test.shader" t="Include" />
         </e>
       </e>

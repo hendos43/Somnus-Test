@@ -41,8 +41,8 @@ Material:
     - _NoiseSpeed1: 0.04
     - _OuterDiameter: 0.45
     - _OutsideDiameter: 0.39
-    - _RingD: 1.9
-    - _RingDiameter: 0.81
+    - _RingD: 0.8
+    - _RingDiameter: 2.2
     - _RingDiameter1: 1.05
     - _RingSharpness: 1
     - _RingWidth: 0.26
@@ -55,7 +55,7 @@ Material:
     - _TessMaxDisp: 5.2
     - _TessMin: 10
     - _TessPhongStrength: 0
-    - _TessValue: 10
+    - _TessValue: 32
     - _VoronoiScale: 200
     - _VoronoiScale1: 2.94
     m_Colors:
